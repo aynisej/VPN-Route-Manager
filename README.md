@@ -15,7 +15,14 @@ VPN Route Manager is a native macOS app for creating and checking route rules wh
 
 ## Download a preview build
 
-[Download the universal macOS DMG](https://github.com/aynisej/VPN-Route-Manager/raw/refs/heads/main/VPN%20Route%20Manager%200.1.0-preview.dmg), open it, then drag **VPN Route Manager** to **Applications**. The preview is ad-hoc signed and not notarized, so macOS may show a security prompt the first time it opens. This build is not ready for App Store submission.
+Choose the disk image that matches your Mac's processor:
+
+- **Apple Silicon (M1, M2, M3, or M4):** [Download DMG](https://github.com/aynisej/VPN-Route-Manager/raw/refs/heads/main/VPN-Route-Manager-0.1.0-preview-Apple-Silicon.dmg)
+- **Intel Mac:** [Download DMG](https://github.com/aynisej/VPN-Route-Manager/raw/refs/heads/main/VPN-Route-Manager-0.1.0-preview-Intel.dmg)
+
+Open the downloaded DMG and drag **VPN Route Manager** to **Applications**. To check your processor, open **Apple menu → About This Mac**: it shows **Chip** on Apple Silicon Macs and **Processor** on Intel Macs.
+
+These preview builds are ad-hoc signed and not notarized, so macOS may show a security prompt the first time they open. They are not ready for App Store submission.
 
 ## Important limitation
 
