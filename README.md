@@ -13,6 +13,10 @@ VPN Route Manager is a native macOS app for creating and checking route rules wh
 - Stores rules locally and allows exporting them as JSON.
 - Includes a custom macOS app icon showing VPN traffic splitting into tunnel and direct routes.
 
+## Download a preview build
+
+[Download the universal macOS DMG](https://github.com/aynisej/VPN-Route-Manager/raw/refs/heads/main/VPN%20Route%20Manager%200.1.0-preview.dmg), open it, then drag **VPN Route Manager** to **Applications**. The preview is ad-hoc signed and not notarized, so macOS may show a security prompt the first time it opens. This build is not ready for App Store submission.
+
 ## Important limitation
 
 App rules are implemented as IP routes in macOS's system routing table. They are learned from the selected process's open network connections, but the resulting route applies to every app connecting to the same IP address. This is best-effort IP-based routing, not true per-process isolation. Apps that delegate networking to helper processes may not expose all of their connections to the collector.
