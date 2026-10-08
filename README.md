@@ -1,3 +1,6 @@
+# VPN Route Manager
+
+VPN Route Manager is a native macOS app for creating and checking route rules while using an existing VPN client. It is built with SwiftUI and does not install or replace a VPN provider.
 
 ## Features
 
@@ -8,6 +11,7 @@
 - Checks the current system route for each saved rule and reports `WORK` or `NOT WORK` on the dashboard.
 - Requests administrator authorization when adding or removing system routes.
 - Stores rules locally and allows exporting them as JSON.
+- Includes a custom macOS app icon showing VPN traffic splitting into tunnel and direct routes.
 
 ## Important limitation
 

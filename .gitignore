@@ -1,0 +1,49 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode local state and user-specific schemes
+**/xcuserdata/
+**/*.xcuserstate
+*.xccheckout
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Xcode / Swift build products and caches
+.build/
+.swiftpm/
+.derivedData/
+DerivedData/
+build/
+Build/
+*.app/
+*.xcarchive/
+*.dSYM/
+*.dSYM.zip
+*.ipa
+*.hmap
+
+# Local exports can contain private domains, IPs, or application names
+vpn-route-policy.json
+vpn-app-rules.json
+
+# Secrets and local signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+
+# Logs and crash reports
+*.log
+*.crash
+*.ips
