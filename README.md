@@ -25,7 +25,9 @@ Rules and collected IP addresses are stored locally in the app's preferences. No
 
 ## License
 
-VPN Route Manager is licensed under GNU GPL version 3 only (`GPL-3.0-only`). See [LICENSE](LICENSE) for the full terms.
+The public source code is licensed under GNU GPL version 3 only (`GPL-3.0-only`). GPL permits commercial use and selling copies under its terms. See [LICENSE](LICENSE) for the full terms.
+
+The copyright holder may also distribute official versions under a separate commercial license, including a paid Mac App Store release. This separate license applies only to those official commercial binaries; it does not remove GPL rights from the public source or copies distributed under the GPL. See [COMMERCIAL-DISTRIBUTION.md](COMMERCIAL-DISTRIBUTION.md).
 
 Copyright © 2026 aynisej.
 
